@@ -15,6 +15,7 @@ ImG - the returned grayscale image with the best RMS contrast value
 
 <h1 style="font-size: 6px;">Example Usage</h1>
 
+```
 % Load RGB image
 RGB = imread('road.tiff');
 
@@ -24,6 +25,14 @@ gray = BestGray(RGB);
 % Display images
 subplot(1,2,1), imshow(RGB), title('Original')
 subplot(1,2,2), imshow(gray), title('Grayscale')
+```
+Original Input Image
+
+<img src="https://user-images.githubusercontent.com/67870363/221874109-b0f82e45-05e6-473d-a096-37c3b21a5f01.jpg" width=300 height=250>
+
+Grayscale Output Image
+
+<img src="https://user-images.githubusercontent.com/67870363/221875094-c7a2efa9-e7f1-458a-8489-559a3cb3511c.jpg" width=300 height=250>
 
 
 <h1 style="font-size: 6px;">Author</h1>
